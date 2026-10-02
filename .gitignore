@@ -1,1 +1,14 @@
+# Modified from https://github.com/github/gitignore/blob/main/Python.gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+wheels/
+
+# Environments
+.venv
 venv/
