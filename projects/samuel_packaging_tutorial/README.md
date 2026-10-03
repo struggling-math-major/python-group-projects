@@ -2,9 +2,13 @@
 
 This directory contains an example Python project created following the tutorial located at https://packaging.python.org/en/latest/tutorials/packaging-projects/.
 
-The tutorial is a part of the official *Python Packaging User Guide* located at https://packaging.python.org/en/latest/. All information containined in this document cis paraphrased or quoted directly from that site.
+The tutorial is a part of the official *Python Packaging User Guide* located at https://packaging.python.org/en/latest/.
 
-Overall, the *Python Documentation* located at https://docs.python.org/3/index.html provides an in-depth single-source of truth for all things Python
+Overall, the *Python Documentation* located at https://docs.python.org/3/index.html provides an in-depth single-source of truth for all things Python.
+
+Information on pip, PyPI, and PyPA can be found on their official websites: https://pip.pypa.io/en/stable, https://pypi.org, and https://www.pypa.io/en/latest/.
+
+All information containined in this document is either paraphrased or quoted directly from the above sources. All credit is due to the above original authors.
 
 This information is included for educational purposes only and should be verified before using in critical applications. See the official Python documentation for up to date information.
 
@@ -21,6 +25,14 @@ People commonly use the work "package" to refer to two separate but related conc
 **Import packages** are special groupings of Python modules that can contain submodules which are imported in Python modules, e.g., once Pillow is downloaded, you import it with the command "import PIL". You can also import the Image submodule of Pillow with the command "from PIL import Image".
 
 Import packages often contain \_\_init\_\_.py files which identify the contents of a directory as a regular package. Without an \_\_init\_\_.py file, the interpreter views the contents as a namespace package. See the Python documentation for the difference between the two.
+
+## The Python Package Index (PyPI)
+
+**The Python Package Index (PyPI)** is a repository of software for the Python programming language. People who make Python packages often upload their packages to this repository so that other users can use them. PyPI is maintained and run by the Python Software FOundation.
+
+## Pip
+
+**Pip** is a Python package that installs other Python packages. Pip is maintained by the Python Packaging Authority (PyPA), a working group that maintains a core set of software projects used in Python packaging. Ironically, you can install pip from PyPI.
 
 ## Python Projects
 
